@@ -5,14 +5,21 @@
     </template>
     <div class="about-me__content">
         <p>
-          I’m a frontend developer with a passion for clear communication, smart
-          workflows, and creating digital experiences that feel effortless for
-          users. I love bringing structure to fast-moving environments, supporting
-          teams, and turning ideas into well-crafted results. Outside of work, I’m
-          all about long distance running, cozy moments with my toddler and my
-          very opinionated cat, and the tv show Married at First Sight Australia. In short: I’m curious, driven, and happiest when I get to
-          combine people, creativity, and technology to make things better.
-          If you want to know more, download my resume here, in <a :href="resume" target="_blank" class="about-me__link">english</a> or <a :href="cv" target="_blank" class="about-me__link">swedish</a>.
+         I’m a frontend developer with a passion for clear communication, smart workflows, 
+         and creating digital experiences that feel effortless for users. 
+         I enjoy bringing structure to fast-moving environments, supporting teams, and turning ideas into well-crafted results.</p>
+        <p>
+          Outside of work, I’m into long-distance running, cozy moments with my toddler and my very opinionated cat, 
+          and binge-watching Married at First Sight Australia.
+        </p>
+        <p>
+          In short, I’m curious, driven, and happiest when I get to combine people, creativity, 
+          and technology to make things better.
+        </p>
+        <p>
+          If you’d like to know more, you can download my resume here — in 
+          <a :href="resume" target="_blank" class="about-me__link">English</a> or 
+          <a :href="cv" target="_blank" class="about-me__link">Swedish</a>.
         </p>
         <img src="../assets/images/mikaela.png" alt="Image of Mikaela" class="about-me__image" />
     </div>
